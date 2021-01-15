@@ -8,7 +8,7 @@
 		<param-name>contextConfigLocation</param-name>
 		<param-value>
 		/WEB-INF/spring/root-context.xml
-		/WEB-INF/spring/security-context2.xml
+		/WEB-INF/spring/security-context3.xml
 		</param-value>
 	</context-param>
 	
@@ -60,7 +60,6 @@
 		<filter-name>springMultipartFilter</filter-name>
 		<url-pattern>/*</url-pattern>
 	</filter-mapping>
-	
 	<!-- 스프링 시큐리티를 적용하기 위한 필터설정. -->
 	<filter>
 		<filter-name>springSecurityFilterChain</filter-name>
